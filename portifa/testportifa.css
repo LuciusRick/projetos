@@ -1,0 +1,24 @@
+@charset "UTF-8"
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background:black url(imagens/cimento-queimado.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    width: 90vw;
+    height: 95vh;
+}
+
+section{
+    position: relative;
+    
+    background: white url(imagens/tabua-sobre-isolado.png);
+}
