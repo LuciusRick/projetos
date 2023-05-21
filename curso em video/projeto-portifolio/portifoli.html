@@ -6,8 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <title>Meu Portifolio</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            width:100vw;
+            height: 100vh;
+            background: gray url(imagens/cimento-queimado.jpg);
+        }
+        
+        section{
+            width:600px;
+            height: 400px;
+        }
+
+        #screen{
+            position: absolute;
+            top: 50px;
+            left: 100px;
+            width: 200px;
+            height: 150px;
+            border: 10px solid black;
+            background-color: white;
+        }
+
+        #pesco{
+            position: absolute;
+            top: 220px;
+            left: 190px;
+            width: 30px;
+            height: 50px;
+            border: 5px solid black;
+            background-color: white;
+        }
+
+        #base{
+            position: absolute;
+            top: 280px;
+            left: 135px;
+            width: 140px;
+            height: 30px;
+            border: 5px solid black;
+            background-color: white;
+        }
+
+        #mesa{
+            position: absolute;
+            top: 100px;
+        }
+
+        iframe{
+            width: 200px;
+        }
+    </style>
 </head>
 <body>
-    
+    <main>
+        <section id="mesa">
+            <div id="screen">
+                <iframe src="home.html" frameborder="0"></iframe>
+            </div>
+            <div id="pesco">
+            </div>
+            <div id="base">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
