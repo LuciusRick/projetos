@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        h1,p, form{
+            margin-top:10px;
+            padding: 10px;
+        }
+
+        fieldset{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos de Formularios</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset><br>
+            <legend>Selecione seu Estado:</legend>
+            <label for="iest"> Estado</label>
+            <select name="estado" id="iest">
+                <optgroup label="Regiao Norte">
+                    <option value="MA">Maranhao</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+                <optgroup label="Regiao Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio De Janeiro</option>
+                    <option value="SP" selected>Sao Paulo</option>
+                </optgroup>
+            </select><br>
+            <br>
+            <label for="iprof">Profissao:</label>
+            <input type="text" name="profissao" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option >Professor</option>
+                <option >Mecanico</option>
+                <option >Dentista</option>
+                <optgroup label="TI">
+                    <option >Desenvolvedor web</option>
+                    <option >Dev Junior</option>
+                    <option >Dev Pleno</option>
+                    <option >Dev Senior</option>
+                </optgroup>
+            </datalist><br>
+            <br>
+            <label for="imsg">Mensagem: </label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        
+        </fieldset>
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"> 
+        </p>
+            
+    </form>
+</body>
+</html>
