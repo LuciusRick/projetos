@@ -1,0 +1,18 @@
+@charset "UTF-8"
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+header {
+    background-color: gray;
+
+}
+
+menu { 
+    list-style-type: none;
+}
