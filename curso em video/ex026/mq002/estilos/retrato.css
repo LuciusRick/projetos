@@ -1,3 +1,6 @@
 @charset "UTF-8";
 
 /* config Portrait (em pe)*/
+body {
+    background: url(../imagens/cev-portrait.jpg) no-repeat center bottom;
+}
