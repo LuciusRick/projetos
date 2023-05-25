@@ -80,7 +80,7 @@ main{
 }
 
 .sec02{
-    background-image: url('imagens/akc-prod.jpg');
+    background-image: url('../imagens/akc-prod.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,7 +95,7 @@ main{
     margin-bottom: 10px;
     background-color: #029c4f;
     width: 30vw;
-    border-radius: 15%;
+    border-radius: 10px;
     
 }
 
@@ -105,7 +105,7 @@ main{
 
 .box img{
     padding: 10px;
-    width: 30vh;
+    width:100px;
 
 }
 
@@ -162,19 +162,21 @@ button:hover, button a:hover{
 }
 
 .menu-itens{
+    display: block;
     background-color: #029c4f;
-}
-
-.itens1:hover{
-    display: flex;
-}
-
-.itens1{
-    display: none;
 }
 
 .menu-itens img{
     width: 50px;
+}
+
+.itens{
+    display:block;
+}
+
+.itens > ul:hover{
+    display: block;
+    
 }
 
 footer{
