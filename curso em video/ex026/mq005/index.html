@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <div id="burguer">
+            <img src="icons/menu-closed.png" alt="menu-icon" onclick="clickMenu()">
+        </div>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opçao1</a></li>
                 <li><a href="#">Opçao2</a></li>
@@ -21,8 +25,22 @@
     </header>
     <main>
         <article>
-
+            <h2>Seila Lorem</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quam quas sed sequi nostrum expedita quos blanditiis nobis nihil repellendus, placeat eius numquam, dicta sit deserunt delectus beatae reiciendis corrupti. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea dolorem sint cupiditate molestias qui odit repellendus dolores atque nam quae fugiat, minima mollitia nemo velit cum laudantium unde cumque quibusdam?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis eos modi quas quidem mollitia magni dolorem, sint alias ad sequi consequuntur amet perferendis praesentium earum, libero dolor accusamus? Est, nemo?</p>
         </article>
     </main>
+    <footer>
+        <p>Site Desenvolvido para Exercicio por <a href="#">Gustavo Guanabra</a> e recriado por <a href="#">Lucius Rick</a></p>
+    </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
