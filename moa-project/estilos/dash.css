@@ -20,7 +20,7 @@ html, body{
 }
 
 body{
-    background-color: #3EFF8B;
+    background-color: #131313;
 }
 
 header{
@@ -35,30 +35,39 @@ header{
 }
 
 header img{
+    margin: 5px;
     width: 50px;
 }
 
 main{
-    width: 80vw;
-    height: 80vh;
+    display: flex;
+    align-items: flex-start ;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 95vh;
 }
 
 main img{
+    margin:10px;
     width: 50px;
 }
 
 .menu-itens{
-    display: block;
+    display:block;
 }
 
 #itens{
-    back 
+    display: none;
+    width: 200px;  
+    border-radius: 0px 5px 5px 0px; 
 }
 
 #itens > li{
     width: 200px;
     padding: 10px;
-    background-color: gray;
+    list-style-type: none;
+    
+    background-color:  #131313;
     color: white;
 }
 
@@ -66,6 +75,30 @@ main img{
     background-color: rgb(180, 180, 180);
 }
 
+#contain0{
+    display: block;
+    height: 90vh;
+    padding: 10px;
+    background-color: rgb(16, 190, 0);
+    
+}
+
+#contain1{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.box-contain{
+    margin: auto;
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
 
 footer{
     padding: 10px;

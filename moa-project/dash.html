@@ -19,17 +19,57 @@
         <nav> <!--Links-->
             <p>ops, ainda estamos em testes!</p>
         </nav>
+       
     </header>
     <main>
-        <div class="menu-itens" onclick="clickMenu()" >
-            <img id="menu" class="image" src="imagens/Logo-MoA.svg" alt="Logo-MoA" >
-            <section id="itens" class="itens">
-                <li><a class="text-d">Meu Perfil</a></li><br>
-                <li><a class="text-d">Minhas Guias</a></li><br>
-                <li><a class="text-d">Minhas Musicas</a></li><br>
-                <li><a class="text-d">Minhas letras</a></li><br>
-            </section>
+        <div class="menu-itens"  >
+            <img id="menu" class="image" src="imagens/Logo-MoA-Ligth.png" alt="Logo-MoA" onclick="clickMenu()">
+            <menu id="itens" class="itens">
+                <li><a class="text-d">Meu Perfil</a></li>
+                <li><a class="text-d">Minhas Guias</a></li>
+                <li><a class="text-d">Minhas Musicas</a></li>
+                <li><a class="text-d">Minhas letras</a></li>
+            </menu>
         </div> 
+        <section id="contain0">
+            <div id="contain1">
+                <div class="box-contain">
+                </div>
+                <div class="box-contain">
+            
+                </div>
+                <div class="box-contain">
+            
+                </div>
+                <div class="box-contain">
+            
+                </div>
+                <div class="box-contain">
+            
+                </div>
+                <div class="box-contain">
+            
+                </div>
+                <div class="box-contain">
+            
+                </div>
+                <div class="box-contain">
+            
+                </div>
+                <div class="box-contain">
+            
+                </div>
+                <div class="box-contain">
+            
+                </div>
+                <div class="box-contain">
+            
+                </div>
+                <div class="box-contain">
+            
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <p>Site Desenvolvido por <a href="#">Lucius Rick Dev</a></p>
@@ -37,10 +77,10 @@
     </footer>
     <script>
         function clickMenu() {
-            if (itens.style.display == 'block'){
-                itens.style.display = 'none'
-            } else {
+            if (itens.style.display == 'none'){
                 itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
             }
         }
     </script>
