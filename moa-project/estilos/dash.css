@@ -8,19 +8,20 @@
 }
 
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 html, body{
     width: 100vw;
-    height: 100vh;
+    
 }
 
 body{
     background-color: #131313;
+    
 }
 
 header{
@@ -28,7 +29,7 @@ header{
     position: sticky;
     padding: 10px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: white;
     background-color: black;
@@ -44,16 +45,16 @@ main{
     align-items: flex-start ;
     justify-content: space-evenly;
     width: 100vw;
-    height: 95vh;
 }
 
-main img{
+div img{
     margin:10px;
     width: 50px;
 }
 
 .menu-itens{
-    display:block;
+    display:flex;
+    flex-direction: column;
 }
 
 #itens{
@@ -63,10 +64,10 @@ main img{
 }
 
 #itens > li{
+    text-align: center;
     width: 200px;
     padding: 10px;
     list-style-type: none;
-    
     background-color:  #131313;
     color: white;
 }
@@ -75,9 +76,19 @@ main img{
     background-color: rgb(180, 180, 180);
 }
 
+#itens a{
+    text-decoration: none;
+    color: white;
+}
+
+#itens a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+    color: red;
+}
+
 #contain0{
     display: block;
-    height: 90vh;
     padding: 10px;
     background-color: rgb(16, 190, 0);
     
@@ -93,8 +104,8 @@ main img{
 
 .box-contain{
     margin: auto;
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 120px;
     border: 1px solid black;
     border-radius: 5px;
     background-color: white;
