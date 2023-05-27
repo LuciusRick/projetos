@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucius Page</title>
     <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
         html{
             width: 100vw;
             height: 100vh;
@@ -16,52 +20,83 @@
         body{
             margin: auto;
             width: 90vw;
-            height: 90vh;
+            
             background-color: white;
             border-radius: 10px;
         }
 
-        header img{
+        header{
             border-radius: 10px 10px 0px 0px;
             background-color: green;
             width: 90vw;
             height: 200px;
             border-bottom: 5px solid white;
-            
+            background: url(imagens/moa-banner.png) no-repeat;
+            background-size: cover;
             background-position: center center;
-            background-attachment: inherit;
         }
 
         main{
-            margin: auto;
             width: 90vw;
-            height: 100vh;
+            height: 100%;
             border-radius: 0px 0px 10px 10px;
             background-color: aquamarine;
         }
 
-        #perfil img:first-child{
+        section#head{
             position: relative;
-            top:-80px;
-            left: 20px;
+            margin-left: 30px;
+            top: -90px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        #perfil{
             border-radius: 50%;
             width: 150px;
             height: 150px;
-            background-color: white;
+            background:url(imagens/lucius-perfil.png) no-repeat center center;
+            background-size: cover;
             border: 5px solid white;
+            
         }
 
-        #centro div:last-child{
+        h1#name{
+            text-align: center;
+            vertical-align: middle;
+            padding-top: 5px;
+            width: 200px;
+            height: 40px;
+            background: white;
+            border-radius: 5px;
+        }
+
+        #itens{
             position: relative;
-            top: 15px;
-            left: 40px;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            top: -70px;
+            left: 10px;
+            width: 85vw;
+            text-align: center;
+            display: inline-flex;
+            gap: 15px;
+        }
+
+        .centro{
+            margin: auto;
             width: 200px;
             height: 400px;
             background-color: rgb(202, 202, 202);
             border: 3px solid white;
+            border-radius:10px;
+            box-shadow: 0px 0px 10px black;
         }
 
         article{
+            padding: 10px;
+            text-indent: 10px;
             background-color: white;
             font-family: 'Courier New', Courier, monospace;
 
@@ -69,16 +104,36 @@
     </style>
 </head>
 <body>
-    <header>
-        <img src="imagens/moa-banner.png" alt="Moa Banner">
+    <header>        
     </header>
-    <main id="centro">
-        <section >
-        <div id="perfil">
-            <img src="imagens/lucius-perfil.png" alt="Lucius Perfil">
-        </div>
+    <main>
+        <section id="head">
+            <div id="perfil"></div>
+            <h1 id="name">Lucius Rick Dev</h1>
         </section>
-       
+        <section id="itens">
+            <div class="centro">
+                <article>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia saepe sed sequi molestiae voluptas in ab quaerat minima quod facere cumque, at quam praesentium amet cupiditate asperiores sunt corrupti? Ipsum!</p>
+                </article>
+            </div>
+            <div class="centro">
+                <article>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia saepe sed sequi molestiae voluptas in ab quaerat minima quod facere cumque, at quam praesentium amet cupiditate asperiores sunt corrupti? Ipsum!</p>
+                </article>
+            </div>
+            <div class="centro">
+                <article>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia saepe sed sequi molestiae voluptas in ab quaerat minima quod facere cumque, at quam praesentium amet cupiditate asperiores sunt corrupti? Ipsum!</p>
+                </article>
+            </div>
+            <div class="centro">
+                <article>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia saepe sed sequi molestiae voluptas in ab quaerat minima quod facere cumque, at quam praesentium amet cupiditate asperiores sunt corrupti? Ipsum!</p>
+                </article>
+            </div>
+        </section>
+        
     </main>
 </body>
 </html>
