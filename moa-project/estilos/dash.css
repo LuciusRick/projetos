@@ -52,9 +52,14 @@ div img{
     width: 50px;
 }
 
+
 .menu-itens{
     display:flex;
     flex-direction: column;
+}
+
+.menu-itens{
+
 }
 
 #itens{
