@@ -84,13 +84,13 @@ div img{
 #itens a:hover{
     font-weight: bolder;
     text-decoration: underline;
-    color: red;
+    color:#2b9957;
 }
 
 #contain0{
     display: block;
     padding: 10px;
-    background-color: rgb(16, 190, 0);
+    background-color:#2b9957;
     
 }
 

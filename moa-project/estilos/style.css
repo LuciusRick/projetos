@@ -71,6 +71,7 @@ header nav p{
 }
 
 main{
+    margin: auto;
     text-align: center;
 }
 
@@ -101,6 +102,8 @@ main{
 
 .box > p{
     padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
 .box img{
@@ -109,19 +112,18 @@ main{
 
 }
 
-
+section.log-cad{
+    margin: auto;
+    width: 200px;
+    height: 250px;
+}
 
 .d-input{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
+    margin-top: 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.829);
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
     border-radius: 10px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
     text-align: center;
     background-color: var(--color04);
 }
@@ -132,18 +134,18 @@ main{
 }
 
 input{
-    margin: auto;
-    width: 200px;
-    height: 40px;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
     border-radius: 10px;
     border: none;
     text-indent: 10px;
 }
 
 button, button a{
-    margin: auto;
+    margin: 20px;
     width: 150px;
-    height: 50px;
+    height: 30px;
     border-radius: 10px;
     border: none;
     color: black;
@@ -151,7 +153,6 @@ button, button a{
 }
 
 button:hover, button a:hover{
-    margin: auto;
     width: 150px;
     height: 50px;
     border-radius: 10px;
