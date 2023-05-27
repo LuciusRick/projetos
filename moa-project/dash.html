@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilos/dash.css">
     <title>Dashbord</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <div> <!--Logo-->
             <a href="index.html"><img src="imagens/Logo-MoA-Ligth.png" alt="Logo-MoA"></a>
@@ -72,6 +72,15 @@
         <p><a href="#">More One Art</a> todos os direitos reservados</p>
     </footer>
     <script>
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             if (itens.style.display == 'none'){
                 itens.style.display = 'block'
