@@ -11,17 +11,18 @@
 <body onresize="mudouTamanho()">
     <header>
         <div> <!--Logo-->
-            <a href="index.html"><img src="imagens/Logo-MoA-Ligth.png" alt="Logo-MoA"></a>
+            <img id="menu-img" class="menu-img" src="imagens/Logo-MoA-Ligth.png" alt="Logo-MoA"  onclick="clickMenu()">
         </div>
-        <div><!--Titulo-->
+        <div class="stitle"><!--Titulo-->
             <h1>More One Art</h1>
         </div> 
+        <div>
+            <a href="../lucius-page/index.html"><img class="perfil" src="imagens/lucius-perfil.png" alt="perfil"></a> 
+        </div>
     </header>
     <main>
-        <div class="menu-itens"  >
-            <img id="menu" class="image" src="imagens/Logo-MoA-Ligth.png" alt="Logo-MoA"  onclick="clickMenu()">
+        <div class="menu-itens">
             <menu id="itens" class="itens">
-                <li><a href="../lucius-page/index.html">Meu Perfil</a></li>
                 <li><a class="text-d">Minhas Guias</a></li>
                 <li><a class="text-d">Minhas Musicas</a></li>
                 <li><a class="text-d">Minhas letras</a></li>
