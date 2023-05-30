@@ -17,15 +17,17 @@
 
                 <h1>Login</h1>
 
-                <form action="login.php" method="post" id="iform">
+                <form action="login.php" method="post" id="iform" autocomplete="on">
 
-                    <input type="email" name="email" id="iemail" required placeholder="Insira seu Email">
                     
-                    <input type="password" name="senha" id="isenha" required placeholder="Insira Sua Senha">
+                        <input type="email" name="email" id="iemail"  placeholder="Insira seu Email" autocomplete="email" required  maxlength="30">
+                   
+                        <input type="password" name="senha" id="isenha"  placeholder="Insira Sua Senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                   
 
                     <input id="button" type="submit" value="Enviar">
 
-                    <p><a href="#">Esqueci minha senha</a></p>
+                    <p><a href="html/passrecover.html">Esqueci minha senha</a></p>
                 </form>
             </div>
         </section>

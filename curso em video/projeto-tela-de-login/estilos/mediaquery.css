@@ -14,7 +14,8 @@ grandes:acima de 1200px
 @media screen and (min-width: 768px){
 
     body{
-        background-image:linear-gradient(to top,#089158, #1d2274);
+        background: url(../imagens/wallpaper1080.jpg) no-repeat center center;
+        background-size: cover;
     }
     
     section#login{
@@ -45,22 +46,25 @@ grandes:acima de 1200px
 @media  screen and (min-width: 992px) {
 
     body{
+        background: url(../imagens/wallpaper1080.jpg) no-repeat center center;
+        background-size: cover;
         background-image: linear-gradient(to top #49a09d, #5f2c82);
     }
 
     section#login{
-        width: 90vw;
+        width: 80vw;
+        height: 60vh;
        
     }
     
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario > input{
-        float: right;
+        float: left;
         width: 50%;
     }
 
@@ -70,5 +74,23 @@ grandes:acima de 1200px
         border-radius: 5px;
         border:1px 1px  rgb(23, 194, 80);
     
+    }
+}
+
+@media  screen and (min-width: 1200px) {
+    body{
+        background: url(../imagens/moa-wallpaper.jpg) no-repeat center center;background-size: cover;
+    }    
+
+    div#imagem{
+        display: block;
+        height: 150px;
+        background: url(../imagens/moa-wallpaper.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    #formulario{
+        height: 100vw;
+
     }
 }
