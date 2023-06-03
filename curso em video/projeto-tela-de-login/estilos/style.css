@@ -78,3 +78,36 @@ input{
 p{
     padding: 10px;
 }
+
+@media screen and (orientation:landscape){
+    body{
+        background: url(../imagens/wallpaper1080.jpg) no-repeat center center;
+        background-size: cover;
+        background-image: linear-gradient(to top #49a09d, #5f2c82);
+    }
+
+    section#login{
+        width: 80vw;
+        height: 60vh;
+       
+    }
+    
+    section#login > div#imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario > input{
+        float: left;
+        width: 50%;
+    }
+
+    input{
+        margin: 10px 30px;
+        padding: 5px;
+        border-radius: 5px;
+        border:1px 1px  rgb(23, 194, 80);
+    
+    }
+}
