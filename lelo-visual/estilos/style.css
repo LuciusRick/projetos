@@ -6,7 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+html, body{
+    width: 100vw;
+    height: 100vh;
     background-color: lightblue;
 }
 
@@ -18,13 +20,20 @@ header{
 
 #logo-lelo{
     height: 70px;
+    padding: 10px;
 }
 
 #marketing{
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+}
+
+#marketing > a {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
 }
 
 #menu-g{

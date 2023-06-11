@@ -17,10 +17,12 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
     #marketing > a {
-        
+        display: flex;
+        align-items: center;
         color: white;
     }
 
@@ -31,6 +33,22 @@
         flex-wrap: wrap;
         gap: 7px;
     }
+
+    main{
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    section{
+        display: flex;
+        flex-direction: column;
+        margin-top:20px;
+        width: 90vw;
+        row-gap: 10px;
+    } 
 
     article{
         text-align: center;
