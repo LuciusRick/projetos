@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (max-width:600px){
+
+    header{
+        position: fixed;
+        width: 100vw;
+        background-color: rgb(49, 49, 241);
+    }
+
+    #logo-lelo{
+        height: 70px;
+    }
+
+    #marketing{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #marketing > a {
+        
+        color: white;
+    }
+
+    #menu-g{
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 7px;
+    }
+
+    article{
+        text-align: center;
+        width: 500px;
+    }
+
+    p{
+        margin: 5px;
+        padding: 10px;
+    }
+
+    
+    
+}
