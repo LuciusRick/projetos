@@ -30,33 +30,8 @@ header{
     box-shadow: 2px 2px 10px black;
 }
 
-#menu-contato{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 7px;
-}
 
-#menu-contato > a {
-    color: white;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    text-shadow: 1px 1px 1px black;
-}
-
-#menu-contato > a:hover {
-    padding: 10px;
-    font-weight: bolder;
-    border-radius: 5px;
-    text-decoration: underline;
-    
-}
-
-#menu-g{
+#itens{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -68,7 +43,7 @@ header{
     border-radius: 5px;
 }
 
-#menu-g > a {
+#itens > a {
     padding: 10px;
     font-size: 1.3em;
     color: white;
@@ -77,7 +52,7 @@ header{
     
 }
 
-#menu-g > a:hover{
+#itens > a:hover{
     padding: 10px;
     font-weight: bolder;
     border-radius: 5px;

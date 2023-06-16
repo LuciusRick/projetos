@@ -12,18 +12,21 @@
     <header>
         <div class="marketing">
             <img src="imagens/_logo-lelo.png" alt="logo lelo" id="logo-lelo">
-        
-            <nav id="menu-g">
+            
+            <nav id="itens">
                 <a href="index.html" target="_self">Inicio</a>
                 <a href="html/serviço.html" target="_self">Serviço</a>
                 <a href="html/portifolio.html" target="_self">Portifolio</a>
-                <nav id="menu-contato">
-                    <a href="#"><img  width="30" height="30" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>@lelo_visual</a>
-                    
-                    <a href="#"><img width="30" height="30" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>11 984738346</a>
-                    <a href="#"><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/apple-phone.png" alt="apple-phone"/>25249898</a>
-                </nav>
+                
+                <a href="#"><img  width="30" height="30" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>@lelo_visual</a>
+                
+                <a href="#"><img width="30" height="30" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>11 984738346</a>
+                <a href="#"><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/apple-phone.png" alt="apple-phone"/>25249898</a>
+                
             </nav>
+            <div>
+                <img src="icons/menu-closed.png" alt="menu-icon" onclick="clickMenu()">
+            </div>
     </div>
     </header>
     <main>
@@ -54,5 +57,14 @@
         </section>
 
     </main>    
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
