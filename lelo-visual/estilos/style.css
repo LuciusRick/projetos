@@ -18,7 +18,9 @@ header{
     background-color: rgb(49, 49, 241);
 }
 
-
+#logo-lelo {
+    height: 70px;
+}
 
 .marketing{
     padding: 10px;
@@ -162,6 +164,3 @@ footer {
     background-color: rgb(49, 49, 241);
 }
 
-#logo-lelo2 {
-    height: 70px;
-}
