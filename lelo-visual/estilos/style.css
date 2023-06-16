@@ -9,7 +9,7 @@
 html, body{
     width: 100vw;
     height: 100vh;
-    background-color: lightblue;
+    background-color: rgb(232, 254, 255);
 }
 
 header{
@@ -18,31 +18,47 @@ header{
     background-color: rgb(49, 49, 241);
 }
 
-#logo-lelo{
-    height: 70px;
-    padding: 10px;
-}
 
-#marketing{
+
+.marketing{
     padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
-#marketing > a {
+#menu-contato{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+#menu-contato > a {
     color: white;
     padding: 10px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+}
+
+#menu-contato > a:hover {
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+    text-decoration: underline;
+    
 }
 
 #menu-g{
-    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 7px;
+    background-color:rgb(23, 23, 158);
+    box-shadow: inset -3px -3px rgb(11, 11, 107);
 }
 
 #menu-g > a {
@@ -58,10 +74,12 @@ header{
     padding: 10px;
     font-weight: bolder;
     border-radius: 5px;
-    background-color:  rgb(41, 41, 151);
+    text-decoration: underline;
+    text-shadow: 2px 2px 1px black;
 }
 
-main{
+main {
+    padding-top:80px;
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -69,7 +87,7 @@ main{
     flex-wrap: wrap;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     margin-top:20px;
@@ -77,11 +95,12 @@ section{
     row-gap: 10px;
 } 
 
-#inicio{
-    margin-top: 200px;
+#logo-lelo {
+    width: 200px;
+    height: 120px;
 }
 
-#foto1{
+#foto1 {
     margin: auto;
     display: block;
     width: 100vw;
@@ -92,7 +111,7 @@ section{
     
 }
 
-#foto2{
+#foto2 {
     margin: auto;
     display: block;
     width: 100vw;
@@ -103,7 +122,7 @@ section{
     
 }
 
-#foto3{
+#foto3 {
     margin: auto;
     display: block;
     width: 100vw;
@@ -114,7 +133,7 @@ section{
     
 }
 
-article{
+article {
     width: 800px;
     display: flex;
     flex-direction: column;
@@ -131,6 +150,18 @@ p {
     margin: 5px;
     padding: 10px;
     font-size:1.5em;
-    color:white;
-    text-shadow: 1px 1px 1px black;
+    color:black;
+    
+}
+
+footer {
+    position: static;
+    bottom: 1px;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(49, 49, 241);
+}
+
+#logo-lelo2 {
+    height: 70px;
 }
