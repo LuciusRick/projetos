@@ -8,27 +8,33 @@
     <link rel="stylesheet" href="estilos/style.css">
     <title>Lelo Comunicação Visual</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
-        <div class="marketing">
-            <img src="imagens/_logo-lelo.png" alt="logo lelo" id="logo-lelo">
+        
+            <nav class="nav-bar">
+                <div class="logo">
+                    <img src="imagens/_logo-lelo.png" alt="logo lelo" id="logo-lelo">
+                </div>
+                
+                <img src="icons/menu-closed.png" alt="menu-icon" class="icon-burguer">
             
-            <nav id="itens">
-                <a href="index.html" target="_self">Inicio</a>
-                <a href="html/serviço.html" target="_self">Serviço</a>
-                <a href="html/portifolio.html" target="_self">Portifolio</a>
-                
-                <a href="#"><img  width="30" height="30" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>@lelo_visual</a>
-                
-                <a href="#"><img width="30" height="30" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>11 984738346</a>
-                <a href="#"><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/apple-phone.png" alt="apple-phone"/>25249898</a>
-                
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a class="nav-link" href="index.html" target="_self">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="html/serviço.html" target="_self">Serviço</a></li>
+                        <li class="nav-item"><a class="nav-link" href="html/portifolio.html" target="_self">Portifolio</a></li>
+                    </ul>
+                </div>
             </nav>
-            <div>
-                <img src="icons/menu-closed.png" alt="menu-icon" onclick="clickMenu()">
+            <div class="mobile-menu">
+                <div class="mobile-nav-list">
+                    <ul>
+                        <li class="nav-item"><a class="mobile-nav-link" href="index.html" target="_self">Inicio</a></li>
+                        <li class="nav-item"><a class="mobile-nav-link" href="html/serviço.html" target="_self">Serviço</a></li>
+                        <li class="nav-item"><a class="mobile-nav-link" href="html/portifolio.html" target="_self">Portifolio</a></li>
+                    </ul>
             </div>
-    </div>
-    </header>
+        </header>
     <main>
         <section>
             <article id="inicio">
@@ -58,6 +64,14 @@
 
     </main>    
     <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             if (itens.style.display == 'block'){
                 itens.style.display = 'none'
