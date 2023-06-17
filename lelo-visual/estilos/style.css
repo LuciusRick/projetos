@@ -21,6 +21,7 @@ header{
     position: fixed;
     top: 0px;
     width: 100vw;
+    height: 100px;
 }
 
 #logol{
@@ -39,10 +40,15 @@ header{
     padding: 10px;
 }
 
-.nav-link a:hover {
+.nav-item > a {
+    color: white;
+}
+
+.nav-item > a:hover {
     font-weight: bolder;
     text-decoration: underline;
 }
+
 main{
     width: 100vw;
     height: 90vh;
