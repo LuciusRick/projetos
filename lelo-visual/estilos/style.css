@@ -13,143 +13,43 @@ html, body{
 }
 
 header{
-    background-color: blue;
-    box-shadow: 2px 2px 5px black;
-}
-
-.nav-bar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: rgb(3, 3, 158);
+    box-shadow: 2px 2px 5px black;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+}
+
+#logol{
+    height: 70px;
+    padding: 5px;
+}
+
+.div-list ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+}
+
+.nav-link{
     padding: 10px;
 }
-
-.logo{
-    display: flex;
-    align-items: center;
-}
-
-#logo-lelo{
-    height: 50px;
-}
-
-.icon-burguer{
-    display:none;
-    height: 50px;
-}
-
-.nav-list{
-    display: flex;
-    align-items: center;
-}
-
-.nav-list ul{
-    display: flex;
-    list-style-type: none;
-}
-
-.nav-link{
-    margin: 0 15px;
-}
-
-.nav-link{
-    text-decoration: none;
-    color: white;
-
-}
-
-.mobile-menu{
-    display: none;
-}
-
-main {
-    padding-top:80px;
+main{
     width: 100vw;
-    height: 80vh;
-    display: flex;
-    row-gap: 20px;
-    flex-wrap: wrap;
+    height: 90vh;
+}
+div.mmain{
+    margin-top: 100px;
+    padding: 20px;
+    background-color: aquamarine;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    margin-top:20px;
-    width: 90vw;
-    row-gap: 10px;
-} 
-
-#foto1 {
-    margin: auto;
-    display: block;
-    width: 100vw;
-    height: 500px;
-    background: white url(../imagens/fachada1.png) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    
-}
-
-#foto2 {
-    margin: auto;
-    display: block;
+.back-img{
     width: 100vw;
     height: 400px;
-    background: white url(../imagens/fachada2.png) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    
-}
-
-#foto3 {
-    margin: auto;
-    display: block;
-    width: 100vw;
-    height: 300px;
-    background: white url(../imagens/fachada3.png) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    
-}
-
-article {
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-
-}
-
-h1 {
-    padding: 10px;
-}
-
-p {
-    padding: 10px;
-    width: 600px;
-}
-
-@media screen and (max-width:700px){
-    header{
-        display: flex;
-        flex-direction: row;
-    }
-   
-    .icon-burguer{
-        display: block;
-    }
-    
-    .mobile-menu{
-        display: block;
-    }
-
-    .mobile-nav-list ul {
-        display: flex;
-        list-style-type: none;
-        align-items: center;
-    }
-
-    .nav-list{
-        display: none;
-    }
-    
+    background: url(imagens/);
 }
