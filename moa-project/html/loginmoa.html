@@ -28,15 +28,12 @@
 
             <h1>Login</h1>
 
-            <form action="login.php" method="post" id="iform" autocomplete="on">
+            <form id="iform" >
 
                 
-                <input type="email" name="email" id="iemail"  placeholder="Insira aqui seu Email" autocomplete="email" required  maxlength="30">
-            
-                <input type="password" name="senha" id="isenha"  placeholder="Insira aqui sua Senha" autocomplete="current-password" required minlength="8" maxlength="20">
-               
-
-                <input id="button" type="submit" value="Enviar">
+                <input type="text" placeholder="email">
+                <input type="password" placeholder="senha">
+                <input type="submit" onclick="logar();">
 
                 <p><a href="passrecover.html">Esqueci minha senha</a></p>
             </form>
@@ -46,5 +43,18 @@
             </div>
         </div>
     </section>
+    <script>
+
+function logar() {
+            var login = document.getElementById('iemail').value;
+            var senha = document.getElementById('isenha').value;
+
+            if(login == "moa@admin" && senha == "senha123"){
+                location.href = "dash.html";
+            }else{
+                alert('usuario ou senha incorretos.');
+            }
+        }
+    </script>
 </body>
 </html>
