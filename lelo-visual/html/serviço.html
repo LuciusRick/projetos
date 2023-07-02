@@ -10,55 +10,14 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="../imagens/_logo-lelo.png" alt="logo lelo" id="logol">
-        </div>
-        <nav class="nav-bar">
-            <div class="div-list">
-                <ul>
-                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a ></li>
-                    <li class="nav-item" ><a class="nav-link" href="serviço.html">Serviços</a ></li>
-                    <li class="nav-item"><a class="nav-link" href="portifolio.html">Portifolio</a ></li>
-                </ul>
+        <img src="imagens/logo-lelo.jpeg" alt="logo-lelo" id="logol">
+        <nav id="header-nav-bar">
+            <div class="div-list"> 
+                    <a class="nav-link" href="index.html">Inicio</a >
+                    <a class="nav-link" href="html/serviço.html">Serviços</a >
+                    <a class="nav-link" href="html/portifolio.html">Portifolio</a >
             </div>
         </nav>
     </header>
-    <main>
-        <div class="mmain">
-            <section class="service">
-                <div class="calc-fachada">
-                    <h1>Calcule o valor da sua fachada</h1>
-                    <h3>Digite em metros o tamanho de sua Fachada:</h3>
-                    <p><label for="valor-comprimento">Comprimento: <input type="number" id="valor-comprimento"></label>Mts.</p>
-                    <p><label for="valor-altura">Altura: <input type="number" id="valor-altura"></label>Mts.</p>
-                    <p><label for="valor-avanço">Avanço: <input type="number" id="valor-avanço"></label>Mts.</p>
-                    <p><label for="valor-lateral">Avanço: <input type="number" id="valor-lateral"></label>Mts.</p>
-                    <p><label for="iimg-import">Importe a Sua Arte: <input type="file" name="img-import" id="iimg-import"></label></p>
-                    <input type="submit">
-                </div>
-                <div class="respo-fachada">
-                    <p><label for="valor-fachada">Valor final: <input type="text" id="valor-fachada"></label></p>
-
-                </div>
-
-            </section>
-        </div>
-    </main>
-    <script>
-        var altura = "valor-altura"
-        var comprimento = "valor-comprimento"
-        var avanço = "valor-avanço"
-        var ferroM = 13
-        var ferroBA = altura * ferroM
-        var ferroBC = comprimento * ferroM
-        var resultSoma = ferroBC + ferroBA 
-        var funcionario_valor = 100
-        var gasolina = 100
-        var fita_valor = 23
-        var fita = fita_valor + resultSoma 
-        var funcionario_dias = funcionario_valor + dias 
-        var dias = 6
-        
-    </script>
 </body>
 </html>
