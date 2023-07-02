@@ -56,19 +56,34 @@ main{
 }
 
 .back-img{
-    padding-top: 100px;
+    padding-top: 150px;
     width: 100%;
     height: 500px;
-    background: url(../imagens/fachada3.png) no-repeat center center;
+    background: url(../imagens/fachada0.png) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     
 }
 
+#logomaster{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+#logodivmaster{
+    margin: auto;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 50%;
+}
+
+
 .back-img2{
     width: 100%;
-    height: 500px;
-    background: url(../imagens/fachada1.png) no-repeat center center;
+    height: 600px;
+    background: url(../imagens/chapascor.png) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -89,7 +104,7 @@ main{
     background-attachment: fixed;
 }
 h1{
-    padding: 20px;
+    
     text-align: center;
     font-family: 'Passion One', cursive;
     font-weight: 700;
@@ -99,6 +114,7 @@ h1{
 }
 
 h2{
+    padding: 30px;
     text-align: center;
     font-family: 'Passion One', cursive;
     font-weight: 700;
@@ -108,7 +124,7 @@ h2{
 }
 
 p{
-    margin: auto;
+    margin: auto,;
     padding: 20px;
     display: block;
     text-indent: 10px;
@@ -116,9 +132,14 @@ p{
     font-family: 'Passion One', cursive;
     font-weight: bolder;
     font-size: 1.5em;
+    line-height: 1.5em;
     color: white;
     text-shadow: 1px 1px 2px black;
     background-color: rgba(255, 255, 255, 0.651);
+}
+
+#paragrafo-inicial{
+    margin: 10px;
 }
 
 #iframe-serv{
