@@ -12,7 +12,8 @@
 html, body{
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(0deg, #b3001bff, #262626ff, #255c99ff, #7ea3ccff, #ccad8fff);
+    background:linear-gradient(45deg, #b3001bff, #262626ff, #255c99ff, #7ea3ccff, #ccad8fff);
+    background-size: cover;
 }
 
 header{
@@ -56,38 +57,6 @@ main{
     height: auto;
 }
 
-.back-img{
-    padding-top: 100px;
-    width: 100%;
-    height: 500px;
-    background: url(../imagens/fachada3.png) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.back-img2{
-    width: 100%;
-    height: 500px;
-    background: url(../imagens/fachada1.png) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.back-img3{
-    width: 100%;
-    height: 500px;
-    background: url(../imagens/fachada2.png) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.back-img4{
-    width: 100%;
-    height: 500px;
-    background: url(../imagens/fachada3.png) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
 h1{
     padding: 20px;
     text-align: center;
@@ -108,16 +77,23 @@ p{
     text-shadow: 1px 1px 2px black;
 }
 
-@media screen and (max-width:300px) {
-    article{
-        width: 300px;
-    }
-    
-    h1{
-        font-size: 1.5em;
-    }
-
-    p{
-        font-size: 1.3em;
-    }
+#jobs{
+    padding-top: 100px;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+
+.img-jobs{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: url(../imagens/fachada1.png) no-repeat center center;
+    background-size: cover;
+}
+
+
