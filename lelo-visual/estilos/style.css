@@ -10,22 +10,23 @@
 }
 
 html, body{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(0deg, #b3001bff 20%, #262626ff, #255c99ff, #7ea3ccff, #ccad8fff);
+    background-repeat: no-repeat;
     
-    background-image:linear-gradient(0deg, #b3001bff, #262626ff, #255c99ff, #7ea3ccff, #ccad8fff);
 }
 
 header{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    position: fixed;
-    text-shadow: 1px 1px 2px black;
+    
 }
 
-#logol{
-    padding: 5px;
-    width: 50px;
-    height: 50px;
+#logoheader{
+    padding: 20px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
 }
 
@@ -52,161 +53,11 @@ header{
 
 .nav-link:hover{
     text-decoration: underline;
-    transform: scale(1px);
 }
 
 .nav-link img{
-    width: 25px;
-    
-}
-
-main{
-    width: 100%;
-    height: auto;
-}
-
-.back-img{
-    padding-top: 100px;
-    width: 100%;
-    height: 450px;
-    /*background: url(../imagens/fachada0.png) no-repeat center center;*/
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#logomaster{
-    display: block;
-    margin: auto;
-    padding: 10px;
-    width: 300px;
-    
-}
-
-img{
-    text-shadow: 2px 2px 3px black;
-}
-
-#logodivmaster{
-    margin: auto;
-    display: flex;
-    align-items: center;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-}
-
-#masteer{
-    display:block;
-    position: relative;
-    float:inherit;
-    top: 100px;
-    overflow: hidden;
-    transition: 2.5s;
-    transform: translate(-0px,-150px);
+    width: 20px;
 }
 
 
-.back-img2{
-    width: 100%;
-    height: 300px;
-    /*background: url(../imagens/chapascor.png) no-repeat center center;*/
-    background-size: cover;
-    background-attachment: fixed;
-}
 
-.back-img3{
-    width: 100%;
-    height: 500px;
-    background: url(../imagens/fachada2.png) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.back-img4{
-    width: 100%;
-    height: 500px;
-    background: url(../imagens/fachada3.png) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.title{
-    text-align: center;
-    font-family: 'Passion One', cursive;
-    font-weight: 700;
-    font-size: 5em;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 2px black;
-}
-
-h2{
-    padding: 10px;
-    text-align: center;
-    font-family: 'Passion One', cursive;
-    font-weight: 700;
-    font-size: 2.3em;
-    color: white;
-    text-shadow: 3px 3px 2px black;
-}
-
-p{
-    margin: auto,;
-    padding: 20px;
-    display: block;
-    text-indent: 10px;
-    text-align: center;
-    font-family: 'Passion One', cursive;
-    font-weight: bolder;
-    font-size: 2em;
-    line-height: 1.5em;
-    color: white;
-    text-shadow: 2px 2px 5px black;
-    background-color: rgba(255, 255, 255, 0.651);
-}
-
-#paragrafo-inicial{
-    margin: 10px;
-}
-
-#iframe-serv{
-    width: 100%;
-    height: 700px;
-}
-
-#iform{
-    margin: auto;
-    padding: 15px;
-    width: 300px;
-    height: 350px;
-    text-align: center;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
-@media screen and (max-width:400px) {
-   
-    
-    h1{
-        font-size: 2em;
-        text-align: center;
-        animation-name: title;
-        animation-duration: 5s;
-        animation-delay: 1.5s;
-    }
-
-    p{
-        width: 300px;
-        text-align: center;
-        font-size: 1em;
-        background-color: rgba(255, 255, 255, 0.541);
-    }
-}
-
-@keyframes title{
-    from {
-        width: 0;
-      }
-      to {
-        width: 100%;
-      }
-    }

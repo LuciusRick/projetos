@@ -1,0 +1,18 @@
+@media screen and (max-width:400px) {
+   
+    
+    h1{
+        font-size: 2em;
+        text-align: center;
+        animation-name: title;
+        animation-duration: 5s;
+        animation-delay: 1.5s;
+    }
+
+    p{
+        width: 300px;
+        text-align: center;
+        font-size: 1em;
+        background-color: rgba(255, 255, 255, 0.541);
+    }
+}
