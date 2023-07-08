@@ -29,7 +29,7 @@ header{
     border-radius: 50%;
 }
 
-.div-list{
+/*.div-list{
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -58,7 +58,7 @@ header{
 .nav-link img{
     width: 25px;
     
-}
+}*/
 
 main{
     width: 100%;
