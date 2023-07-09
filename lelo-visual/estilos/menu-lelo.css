@@ -9,21 +9,24 @@
     height: 100vh;
 }
 
+
+
 nav.menu-lateral{
     width: 60px;
-    height: 100vh;
-    background-color: rgb(36, 33, 33);
+    height: 60px;
     transition: .9s;
     overflow: hidden;
+    float: left;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
 }
 
 nav.menu-lateral:hover{
     width: 300px;
     height: 100vh;
-    box-shadow: 3px 0 0  rgb(3, 184, 3);
+    background:linear-gradient(0deg, #b3001bff 20%, #262626ff, #255c99ff, #7ea3ccff, #ccad8fff);
+    box-shadow: 3px 3px 0  rgb(3, 184, 3);
 }
 
 .btn-span{
