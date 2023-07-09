@@ -26,7 +26,7 @@ nav.menu-lateral:hover{
     width: 300px;
     height: 100vh;
     background:linear-gradient(0deg, #b3001bff 20%, #262626ff, #255c99ff, #7ea3ccff, #ccad8fff);
-    box-shadow: 3px 3px 0  rgb(3, 184, 3);
+    box-shadow: 3px 3px 0  white;
 }
 
 .btn-span{
@@ -57,7 +57,7 @@ ul{
 }
 
 .item-menu:hover{
-    background-color: rgb(3, 184, 3);
+    background-color: white;
 }
 
 ul .item-menu a{
@@ -72,7 +72,7 @@ ul .item-menu a:hover{
     display: flex;
     align-items: center;
     font-size: 1.5em;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 9, 9);
     text-decoration: none;
     
 }
