@@ -79,6 +79,7 @@ main{
     padding: 10px;
     width: 300px;
     
+    
 }
 
 img{
@@ -157,6 +158,9 @@ h2{
 }
 
 #iform{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     margin: auto;
     padding: 15px;
     width: 300px;
@@ -174,9 +178,15 @@ h2{
     
 }
 
-.sec-form label, h1{
+.sec-form h1{
     font-family:'Bebas Neue', sans-serif;
+    font-size: 2em;
     padding: 10px;
+}
+
+label{
+    font-size: 1.5em;
+    font-family:'Bebas Neue', sans-serif;
 }
 
 input{
@@ -184,4 +194,36 @@ input{
     height: 30px;
     padding: 20px;
     margin: auto;
+    border-radius: 5px;
+}
+
+.botao{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 7px;
+}
+
+.botao:hover{
+    background-color: gray;
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(55, 28, 155);
+}
+
+footer > section > a {
+    color: white;
+}
+
+.foot-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
 }
