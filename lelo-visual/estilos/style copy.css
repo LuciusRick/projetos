@@ -96,13 +96,8 @@ img{
 }
 
 #masteer{
-    display:block;
-    position: relative;
-    float:inherit;
-    top: 100px;
-    overflow: hidden;
     transition: 2.5s;
-    transform: translate(-0px,-150px);
+    
 }
 
 

@@ -13,19 +13,19 @@
 
 nav.menu-lateral{
     width: 60px;
-    height: 60px;
+    height: 100vh;
     transition: .9s;
     overflow: hidden;
-    float: left;
     position: fixed;
     top: 0px;
     left: 0px;
+    
 }
 
 nav.menu-lateral:hover{
     width: 300px;
     height: 100vh;
-    background:linear-gradient(0deg, #b3001bff 20%, #262626ff, #255c99ff, #7ea3ccff, #ccad8fff);
+    background-color: rgb(29, 29, 29);
     box-shadow: 3px 3px 0  white;
 }
 
