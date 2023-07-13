@@ -9,7 +9,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-color: gray;
+    background-color:gold;
 }
 
 header{
@@ -40,13 +40,14 @@ main{
 }
 
 .sec01{
-    display: flex;
-    flex-direction: column;
+    
     gap: 30px;
     padding: 20px;
+    text-align: center;
 }
 
-.sec01 h1{
+h1{
+    display: block;
     text-align: center;
     color: white;
     font-size: 1.5em;
@@ -54,17 +55,24 @@ main{
 }
 
 .div-span{
+    
     display: flex;
-    width: 200px;
+    width: 500px;
+    height: 300px;
     color: white;
-    background-color: red;
+    background: url(../img/painel-lona.png) no-repeat center center;
+    background-size: cover;
     transition: 1s;
+}
+
+.txt-span{
+    text-align: center;
 }
 
 .div-span:hover{
     width: 100vw;
     height: 60vh;
-    background: url(painel-lona.png) no-repeat center center;
+    background: url(../img/painel-lona.png) no-repeat center center;
     background-size: cover;
     background-attachment:inherit;
 }
@@ -73,14 +81,14 @@ main{
     display: flex;
     width: 200px;
     color: white;
-    background-color: red;
+    background: url(../img/painel-lona.png) no-repeat center center;
     transition: 1s;
 }
 
 .div-span2:hover{
     width: 100vw;
     height: 60vh;
-    background: url(painel-lona.png) no-repeat center center;
+    background: url(../img/painel-lona.png) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -89,14 +97,14 @@ main{
     display: flex;
     width: 200px;
     color: white;
-    background-color: red;
+    background: url(../img/painel-lona.png) no-repeat center center;
     transition: 1s;
 }
 
 .div-span3:hover{
     width: 100vw;
     height: 60vh;
-    background: url(painel-lona.png) no-repeat center center;
+    background: url(../img/painel-lona.png) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -105,14 +113,18 @@ main{
     display: flex;
     width: 300px;
     color: white;
-    background-color: red;
+    background: url(../img/painel-lona.png) no-repeat center center;
     transition: 1s;
 }
 
 .div-span4:hover{
     width: 100vw;
     height: 60vh;
-    background: url(painel-lona.png) no-repeat center center;
+    background: url(../img/painel-lona.png) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.div-title{
+    display: block;
 }
