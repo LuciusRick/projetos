@@ -12,14 +12,14 @@
 
 
 nav.menu-lateral{
-    width: 60px;
+    width: 70px;
     height: 100vh;
     transition: .9s;
     overflow: hidden;
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: rgba(29, 29, 29, 0.384);
+    background-color: #131515;;
 }
 
 nav.menu-lateral:hover{
@@ -30,7 +30,7 @@ nav.menu-lateral:hover{
 }
 
 .btn-span{
-    padding: 20px;
+    padding: 10px;
     
 }
 
@@ -52,7 +52,7 @@ ul{
 .item-menu{
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 20px;
     transition: .5s;
 }
 
@@ -78,4 +78,8 @@ ul .item-menu a:hover{
 
 ul .item-menu a .txt-link{
     padding-left: 30px;
+}
+
+.icon{
+    width: 60px;
 }

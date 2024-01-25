@@ -163,6 +163,10 @@ button:hover, button a:hover{
     text-decoration: none;
 }
 
+.links{
+    width: 50px;
+}
+
 .menu-itens{
     display: block;
     background-color: #029c4f;
