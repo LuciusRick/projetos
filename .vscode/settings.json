@@ -1,6 +1,6 @@
 {
     "workbench.preferredDarkColorTheme": "Visual Studio Dark",
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "afterDelay",
     "editor.fontSize": 12,
     "editor.wordWrap": "on"
 }
