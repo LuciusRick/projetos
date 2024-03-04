@@ -21,6 +21,14 @@ img{
     height: 200px;
 }
 
+main{
+    margin-left: 10px;
+    height: 99vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 section {
     display: flex;
     flex-wrap: wrap;
